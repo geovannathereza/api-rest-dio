@@ -1,0 +1,1 @@
+web: java -jar boot jar path from contentroot
