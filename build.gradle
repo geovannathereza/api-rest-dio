@@ -29,9 +29,10 @@ dependencies {
 
 tasks.jar {
 	manifest {
-		attributes["Main-Class" = "me.dio.ApiRestDioApplication"]
+		attributes["Main-Class"] = "me.dio.ApiRestDioApplication"
 	}
 }
+
 
 tasks.named('test') {
 	useJUnitPlatform()
